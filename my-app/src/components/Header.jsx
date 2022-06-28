@@ -1,10 +1,13 @@
 import React, { Component } from "react";
+import { Navbar } from "react-bootstrap";
 
 class Header extends Component {
     render() {
         return (
-            <div className="Header-div">
-                <h2 style={{ color: "white" }}>Live Bolt Smart Lock</h2>
+            <div>
+                <Navbar bg="dark" variant="dark">
+                    <Navbar.Brand href="#home">Live Bolt Smart Lock</Navbar.Brand>
+                </Navbar>
             </div>
         );
     }
