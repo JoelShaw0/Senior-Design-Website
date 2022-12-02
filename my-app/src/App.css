@@ -7,10 +7,18 @@
 }
 
 .Spacing-div {
-  height: 20px;
+  height: 50px;
 }
 
 .logo {
   width: 300px;
   height: 534px;
+}
+
+.document-link {
+  font-size: 20px;
+}
+
+.row-spacing {
+  padding-bottom: 20px;
 }
